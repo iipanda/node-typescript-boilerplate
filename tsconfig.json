@@ -3,15 +3,16 @@
     "lib": ["ES2023"],
     "module": "node16",
     "target": "ES2022",
-    // "rootDir": ".",                                  /* Specify the root folder within your source files. */
-    // "baseUrl": "./src",                                  /* Specify the base directory to resolve non-relative module names. */
-    // "paths": {},                                      /* Specify a set of entries that re-map imports to additional lookup locations. */
     "outDir": "./dist",
-    // "allowSyntheticDefaultImports": true,             /* Allow 'import x from y' when a module doesn't have a default export. */
-    // "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true
+    // "baseUrl": ".",
+    // "paths": {
+    //   "~/*": ["./src/*"]
+    // }
   },
   "include": ["src/**/*"]
 }
