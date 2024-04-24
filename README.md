@@ -9,6 +9,7 @@ Opinionated Node.js and TypeScript boilerplate
 - [Prettier](https://prettier.io/) for code formatting
 - [Renovate](https://renovatebot.com/) for automatic dependency updates
 - [Visual Studio Code](https://code.visualstudio.com/) workspace config
+- [Docker](https://www.docker.com/) support for reproducible builds
 
 ## 🌱 Inspired By
 
@@ -34,15 +35,14 @@ pnpm install
 
 ## 🛠 Scripts
 
-- `build`: Compiles TypeScript to JavaScript
-- `start`: Runs the compiled JavaScript
+- `build`: Runs `tsc` to compile TypeScript
+- `start`: Runs the compiled code
 - `format`: Formats the code with Prettier
-- `lint`: Lints the TypeScript code
-- `lint:fix`: Lints and attempts to fix issues automatically
+- `lint`: Runs ESLint
+- `lint:fix`: Runs ESLint with the `--fix` flag to attempt to fix the issues automatically
 
 ## 🚧 TODO
 
-- Add Docker support
 - Add import aliases
 
 ## 📄 License
