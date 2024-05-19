@@ -10,6 +10,8 @@ Opinionated Node.js and TypeScript boilerplate
 - [Renovate](https://renovatebot.com/) for automatic dependency updates
 - [Visual Studio Code](https://code.visualstudio.com/) workspace config
 - [Docker](https://www.docker.com/) support for reproducible builds
+- [tsup](https://tsup.egoist.dev/) for bundling TypeScript code with esbuild
+- Import aliases for simplified imports (by default `@/` is aliased to `./src/`)
 
 ## 🌱 Inspired By
 
@@ -35,15 +37,11 @@ pnpm install
 
 ## 🛠 Scripts
 
-- `build`: Runs `tsc` to compile TypeScript
+- `build`: Runs `tsup` to compile and bundle the TypeScript code
 - `start`: Runs the compiled code
 - `format`: Formats the code with Prettier
 - `lint`: Runs ESLint
 - `lint:fix`: Runs ESLint with the `--fix` flag to attempt to fix the issues automatically
-
-## 🚧 TODO
-
-- Add import aliases
 
 ## 📄 License
 

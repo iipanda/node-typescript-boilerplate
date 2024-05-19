@@ -1,1 +1,3 @@
-console.log("Hello from Node.js + TypeScript!");
+import { hello } from "@/utils";
+
+console.log(hello());
