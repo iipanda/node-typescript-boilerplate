@@ -12,6 +12,7 @@ Opinionated Node.js and TypeScript boilerplate
 - [Docker](https://www.docker.com/) support for reproducible builds
 - [tsup](https://tsup.egoist.dev/) for bundling TypeScript code with esbuild
 - Import aliases for simplified imports (by default `@/` is aliased to `./src/`)
+- [Vitest](https://vitest.dev/) for testing
 
 ## 🌱 Inspired By
 
@@ -42,6 +43,7 @@ pnpm install
 - `format`: Formats the code with Prettier
 - `lint`: Runs ESLint
 - `lint:fix`: Runs ESLint with the `--fix` flag to attempt to fix the issues automatically
+- `test`: Runs the test suite
 
 ## 📄 License
 
