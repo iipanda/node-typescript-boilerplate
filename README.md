@@ -13,6 +13,7 @@ Opinionated Node.js and TypeScript boilerplate
 - [tsup](https://tsup.egoist.dev/) for bundling TypeScript code with esbuild
 - Import aliases for simplified imports (by default `@/` is aliased to `./src/`)
 - [Vitest](https://vitest.dev/) for testing
+- [GitHub Actions](https://github.com/features/actions) workflow for linting and testing all pull requests
 
 ## 🌱 Inspired By
 
