@@ -9,31 +9,31 @@ importers:
   .:
     devDependencies:
       '@eslint/js':
-        specifier: ^9.1.1
+        specifier: 9.4.0
         version: 9.4.0
       '@types/node':
-        specifier: ^20.12.7
+        specifier: 20.13.0
         version: 20.13.0
       eslint:
-        specifier: ^9.1.1
+        specifier: 9.4.0
         version: 9.4.0
       prettier:
         specifier: 3.2.5
         version: 3.2.5
       tsup:
-        specifier: ^8.0.2
+        specifier: 8.0.2
         version: 8.0.2(postcss@8.4.38)(typescript@5.4.5)
       typescript:
-        specifier: ^5.4.5
+        specifier: 5.4.5
         version: 5.4.5
       typescript-eslint:
         specifier: 8.0.0-alpha.24
         version: 8.0.0-alpha.24(eslint@9.4.0)(typescript@5.4.5)
       vite-tsconfig-paths:
-        specifier: ^4.3.2
+        specifier: 4.3.2
         version: 4.3.2(typescript@5.4.5)(vite@5.2.11(@types/node@20.13.0))
       vitest:
-        specifier: ^1.6.0
+        specifier: 1.6.0
         version: 1.6.0(@types/node@20.13.0)
 
 packages:
@@ -671,15 +671,6 @@ packages:
   cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
     engines: {node: '>= 8'}
-
-  debug@4.3.4:
-    resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
 
   debug@4.3.5:
     resolution: {integrity: sha512-pt0bNEmneDIvdL1Xsd9oDQ/wrQRkXDT4AUWlNZNPKvW5x/jyO9VFXkJUP07vQ2upmw5PlaITaPKc31jK13V+jg==}
@@ -1768,7 +1759,7 @@ snapshots:
       '@typescript-eslint/types': 8.0.0-alpha.24
       '@typescript-eslint/typescript-estree': 8.0.0-alpha.24(typescript@5.4.5)
       '@typescript-eslint/visitor-keys': 8.0.0-alpha.24
-      debug: 4.3.4
+      debug: 4.3.5
       eslint: 9.4.0
     optionalDependencies:
       typescript: 5.4.5
@@ -1968,10 +1959,6 @@ snapshots:
       path-key: 3.1.1
       shebang-command: 2.0.0
       which: 2.0.2
-
-  debug@4.3.4:
-    dependencies:
-      ms: 2.1.2
 
   debug@4.3.5:
     dependencies:
@@ -2613,7 +2600,7 @@ snapshots:
       bundle-require: 4.1.0(esbuild@0.19.12)
       cac: 6.7.14
       chokidar: 3.6.0
-      debug: 4.3.4
+      debug: 4.3.5
       esbuild: 0.19.12
       execa: 5.1.1
       globby: 11.1.0
@@ -2661,7 +2648,7 @@ snapshots:
   vite-node@1.6.0(@types/node@20.13.0):
     dependencies:
       cac: 6.7.14
-      debug: 4.3.4
+      debug: 4.3.5
       pathe: 1.1.2
       picocolors: 1.0.1
       vite: 5.2.11(@types/node@20.13.0)
@@ -2677,7 +2664,7 @@ snapshots:
 
   vite-tsconfig-paths@4.3.2(typescript@5.4.5)(vite@5.2.11(@types/node@20.13.0)):
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.5
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.4.5)
     optionalDependencies:
@@ -2704,7 +2691,7 @@ snapshots:
       '@vitest/utils': 1.6.0
       acorn-walk: 8.3.2
       chai: 4.4.1
-      debug: 4.3.4
+      debug: 4.3.5
       execa: 8.0.1
       local-pkg: 0.5.0
       magic-string: 0.30.10
