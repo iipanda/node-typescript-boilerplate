@@ -3,6 +3,10 @@
   "extends": ["config:base"],
   "packageRules": [
     {
+      "enabled": false,
+      "matchDepTypes": ["engines"]
+    },
+    {
       "rangeStrategy": "pin",
       "matchManagers": ["npm"]
     },
