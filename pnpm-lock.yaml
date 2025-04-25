@@ -12,8 +12,8 @@ importers:
         specifier: 9.25.1
         version: 9.25.1
       '@types/node':
-        specifier: 20.17.30
-        version: 20.17.30
+        specifier: 20.17.31
+        version: 20.17.31
       eslint:
         specifier: 9.25.1
         version: 9.25.1
@@ -31,10 +31,10 @@ importers:
         version: 8.31.0(eslint@9.25.1)(typescript@5.8.3)
       vite-tsconfig-paths:
         specifier: 5.1.4
-        version: 5.1.4(typescript@5.8.3)(vite@5.2.11(@types/node@20.17.30))
+        version: 5.1.4(typescript@5.8.3)(vite@5.2.11(@types/node@20.17.31))
       vitest:
         specifier: 2.1.9
-        version: 2.1.9(@types/node@20.17.30)
+        version: 2.1.9(@types/node@20.17.31)
 
 packages:
 
@@ -603,8 +603,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@20.17.30':
-    resolution: {integrity: sha512-7zf4YyHA+jvBNfVrk2Gtvs6x7E8V+YDW05bNfG2XkWDJfYRXrTiP/DsB2zSYTaHX0bGIujTBQdMVAhb+j7mwpg==}
+  '@types/node@20.17.31':
+    resolution: {integrity: sha512-quODOCNXQAbNf1Q7V+fI8WyErOCh0D5Yd31vHnKu4GkSztGQ7rlltAaqXhHhLl33tlVyUXs2386MkANSwgDn6A==}
 
   '@typescript-eslint/eslint-plugin@8.31.0':
     resolution: {integrity: sha512-evaQJZ/J/S4wisevDvC1KFZkPzRetH8kYZbkgcTRyql3mcKsf+ZFDV1BVWUGTCAW5pQHoqn5gK5b8kn7ou9aFQ==}
@@ -1831,7 +1831,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@20.17.30':
+  '@types/node@20.17.31':
     dependencies:
       undici-types: 6.19.6
 
@@ -1919,13 +1919,13 @@ snapshots:
       chai: 5.1.2
       tinyrainbow: 1.2.0
 
-  '@vitest/mocker@2.1.9(vite@5.2.11(@types/node@20.17.30))':
+  '@vitest/mocker@2.1.9(vite@5.2.11(@types/node@20.17.31))':
     dependencies:
       '@vitest/spy': 2.1.9
       estree-walker: 3.0.3
       magic-string: 0.30.12
     optionalDependencies:
-      vite: 5.2.11(@types/node@20.17.30)
+      vite: 5.2.11(@types/node@20.17.31)
 
   '@vitest/pretty-format@2.1.9':
     dependencies:
@@ -2640,13 +2640,13 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vite-node@2.1.9(@types/node@20.17.30):
+  vite-node@2.1.9(@types/node@20.17.31):
     dependencies:
       cac: 6.7.14
       debug: 4.4.0
       es-module-lexer: 1.5.4
       pathe: 1.1.2
-      vite: 5.2.11(@types/node@20.17.30)
+      vite: 5.2.11(@types/node@20.17.31)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -2657,30 +2657,30 @@ snapshots:
       - supports-color
       - terser
 
-  vite-tsconfig-paths@5.1.4(typescript@5.8.3)(vite@5.2.11(@types/node@20.17.30)):
+  vite-tsconfig-paths@5.1.4(typescript@5.8.3)(vite@5.2.11(@types/node@20.17.31)):
     dependencies:
       debug: 4.3.7
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.8.3)
     optionalDependencies:
-      vite: 5.2.11(@types/node@20.17.30)
+      vite: 5.2.11(@types/node@20.17.31)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@5.2.11(@types/node@20.17.30):
+  vite@5.2.11(@types/node@20.17.31):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.24.0
     optionalDependencies:
-      '@types/node': 20.17.30
+      '@types/node': 20.17.31
       fsevents: 2.3.3
 
-  vitest@2.1.9(@types/node@20.17.30):
+  vitest@2.1.9(@types/node@20.17.31):
     dependencies:
       '@vitest/expect': 2.1.9
-      '@vitest/mocker': 2.1.9(vite@5.2.11(@types/node@20.17.30))
+      '@vitest/mocker': 2.1.9(vite@5.2.11(@types/node@20.17.31))
       '@vitest/pretty-format': 2.1.9
       '@vitest/runner': 2.1.9
       '@vitest/snapshot': 2.1.9
@@ -2696,11 +2696,11 @@ snapshots:
       tinyexec: 0.3.1
       tinypool: 1.0.1
       tinyrainbow: 1.2.0
-      vite: 5.2.11(@types/node@20.17.30)
-      vite-node: 2.1.9(@types/node@20.17.30)
+      vite: 5.2.11(@types/node@20.17.31)
+      vite-node: 2.1.9(@types/node@20.17.31)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 20.17.30
+      '@types/node': 20.17.31
     transitivePeerDependencies:
       - less
       - lightningcss
