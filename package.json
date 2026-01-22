@@ -19,7 +19,7 @@
     "@eslint/js": "9.39.2",
     "@types/node": "20.19.30",
     "eslint": "9.39.2",
-    "prettier": "3.8.0",
+    "prettier": "3.8.1",
     "tsup": "8.5.1",
     "typescript": "5.9.3",
     "typescript-eslint": "8.53.1",
