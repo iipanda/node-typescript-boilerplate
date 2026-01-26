@@ -30,8 +30,8 @@ importers:
         specifier: 8.54.0
         version: 8.54.0(eslint@9.39.2)(typescript@5.9.3)
       vite-tsconfig-paths:
-        specifier: 5.1.4
-        version: 5.1.4(typescript@5.9.3)(vite@5.2.11(@types/node@20.19.30))
+        specifier: 6.0.5
+        version: 6.0.5(typescript@5.9.3)(vite@5.2.11(@types/node@20.19.30))
       vitest:
         specifier: 2.1.9
         version: 2.1.9(@types/node@20.19.30)
@@ -1393,13 +1393,10 @@ packages:
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
 
-  vite-tsconfig-paths@5.1.4:
-    resolution: {integrity: sha512-cYj0LRuLV2c2sMqhqhGpaO3LretdtMn/BVX4cPLanIZuwwrkVl+lK84E/miEXkCHWXuq65rhNN4rXsBcOB3S4w==}
+  vite-tsconfig-paths@6.0.5:
+    resolution: {integrity: sha512-f/WvY6ekHykUF1rWJUAbCU7iS/5QYDIugwpqJA+ttwKbxSbzNlqlE8vZSrsnxNQciUW+z6lvhlXMaEyZn9MSig==}
     peerDependencies:
       vite: '*'
-    peerDependenciesMeta:
-      vite:
-        optional: true
 
   vite@5.2.11:
     resolution: {integrity: sha512-HndV31LWW05i1BLPMUCE1B9E9GFbOu1MbenhS58FuK6owSO5qHm7GiCotrNY1YE5rMeQSFBGmT5ZaLEjFizgiQ==}
@@ -1651,7 +1648,7 @@ snapshots:
   '@eslint/config-array@0.21.1':
     dependencies:
       '@eslint/object-schema': 2.1.7
-      debug: 4.4.0
+      debug: 4.4.3
       minimatch: 3.1.2
     transitivePeerDependencies:
       - supports-color
@@ -1667,7 +1664,7 @@ snapshots:
   '@eslint/eslintrc@3.3.1':
     dependencies:
       ajv: 6.12.6
-      debug: 4.4.0
+      debug: 4.4.3
       espree: 10.4.0
       globals: 14.0.0
       ignore: 5.3.1
@@ -2659,7 +2656,7 @@ snapshots:
   vite-node@2.1.9(@types/node@20.19.30):
     dependencies:
       cac: 6.7.14
-      debug: 4.4.0
+      debug: 4.4.3
       es-module-lexer: 1.5.4
       pathe: 1.1.2
       vite: 5.2.11(@types/node@20.19.30)
@@ -2673,12 +2670,11 @@ snapshots:
       - supports-color
       - terser
 
-  vite-tsconfig-paths@5.1.4(typescript@5.9.3)(vite@5.2.11(@types/node@20.19.30)):
+  vite-tsconfig-paths@6.0.5(typescript@5.9.3)(vite@5.2.11(@types/node@20.19.30)):
     dependencies:
-      debug: 4.3.7
+      debug: 4.4.3
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.9.3)
-    optionalDependencies:
       vite: 5.2.11(@types/node@20.19.30)
     transitivePeerDependencies:
       - supports-color
