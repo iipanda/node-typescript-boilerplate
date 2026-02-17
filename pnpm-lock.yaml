@@ -30,8 +30,8 @@ importers:
         specifier: 8.56.0
         version: 8.56.0(eslint@9.39.2)(typescript@5.9.3)
       vite-tsconfig-paths:
-        specifier: 5.1.4
-        version: 5.1.4(typescript@5.9.3)(vite@5.2.11(@types/node@20.19.33))
+        specifier: 6.1.1
+        version: 6.1.1(typescript@5.9.3)(vite@5.2.11(@types/node@20.19.33))
       vitest:
         specifier: 2.1.9
         version: 2.1.9(@types/node@20.19.33)
@@ -1398,13 +1398,10 @@ packages:
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
 
-  vite-tsconfig-paths@5.1.4:
-    resolution: {integrity: sha512-cYj0LRuLV2c2sMqhqhGpaO3LretdtMn/BVX4cPLanIZuwwrkVl+lK84E/miEXkCHWXuq65rhNN4rXsBcOB3S4w==}
+  vite-tsconfig-paths@6.1.1:
+    resolution: {integrity: sha512-2cihq7zliibCCZ8P9cKJrQBkfgdvcFkOOc3Y02o3GWUDLgqjWsZudaoiuOwO/gzTzy17cS5F7ZPo4bsnS4DGkg==}
     peerDependencies:
       vite: '*'
-    peerDependenciesMeta:
-      vite:
-        optional: true
 
   vite@5.2.11:
     resolution: {integrity: sha512-HndV31LWW05i1BLPMUCE1B9E9GFbOu1MbenhS58FuK6owSO5qHm7GiCotrNY1YE5rMeQSFBGmT5ZaLEjFizgiQ==}
@@ -2666,7 +2663,7 @@ snapshots:
   vite-node@2.1.9(@types/node@20.19.33):
     dependencies:
       cac: 6.7.14
-      debug: 4.4.0
+      debug: 4.4.3
       es-module-lexer: 1.5.4
       pathe: 1.1.2
       vite: 5.2.11(@types/node@20.19.33)
@@ -2680,12 +2677,11 @@ snapshots:
       - supports-color
       - terser
 
-  vite-tsconfig-paths@5.1.4(typescript@5.9.3)(vite@5.2.11(@types/node@20.19.33)):
+  vite-tsconfig-paths@6.1.1(typescript@5.9.3)(vite@5.2.11(@types/node@20.19.33)):
     dependencies:
-      debug: 4.3.7
+      debug: 4.4.3
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.9.3)
-    optionalDependencies:
       vite: 5.2.11(@types/node@20.19.33)
     transitivePeerDependencies:
       - supports-color
